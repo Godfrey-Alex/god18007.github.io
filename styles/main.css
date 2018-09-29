@@ -1,0 +1,49 @@
+* { margin: 0; box-sizing: border-box; } 
+
+body { 
+    font-size: 55px; 
+    line-height: 150px;
+    font-family: helvetica;
+    color: blue;
+}
+
+h1 {
+    font-size: 20;
+    color: rgb(255, 0, 0);
+}
+
+h2 {
+    font-size: 15;
+    text-align: center;
+    color: black;
+    border-bottom: 1px solid rgb(2, 2, 2);
+}
+
+h3 {
+    font-size: 8;
+    text-align: center;
+    color: black
+}
+
+header, main, footer {
+    margin: 1.25rem auto;
+    padding: .5rem;
+    max-width: 100;
+}
+
+header, footer, footer a {
+    text-align: center;
+    background-color: rgb(58, 55, 55);
+    color: whitesmoke;
+}
+
+header img {
+    width: 500px;
+    height: 50%;
+    float: right;
+    float: center;
+}
+
+footer {
+    font-size: 7;
+}
