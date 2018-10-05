@@ -2,7 +2,7 @@
 
 body { 
     font-size: 55px; 
-    line-height: 100px;
+    line-height: 50px;
     font-family: helvetica;
     color: blue;
 }
@@ -36,6 +36,7 @@ header, footer, footer a {
     text-align: center;
     background-color: rgb(58, 55, 55);
     color: whitesmoke;
+    line-height: 50px;
 }
 
 header img {
