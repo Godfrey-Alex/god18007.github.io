@@ -40,11 +40,11 @@ header, footer, footer a {
     line-height: 50px;
 }
 
-img {
+header img {
     width: 200px;
     height: 25%;
     float: right;
-    float: center;
+    <!--float: center;-->
 }
 
 footer {
