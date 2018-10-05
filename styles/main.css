@@ -41,8 +41,8 @@ header, footer, footer a {
 }
 
 header img {
-    width: 200px;
-    height: 25%;
+    width: 275px;
+    height: 50%;
     float: right;
     <!--float: center;-->
 }
