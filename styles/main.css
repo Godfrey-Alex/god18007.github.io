@@ -8,12 +8,12 @@ body {
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 30px;
     color: rgb(255, 0, 0);
 }
 
 h2 {
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
     color: black;
     border-bottom: 1px solid rgb(2, 2, 2);
@@ -41,12 +41,12 @@ header, footer, footer a {
 }
 
 header img {
-    width: 400px;
+    width: 200px;
     height: 50%;
     float: right;
     float: center;
 }
 
 footer {
-    font-size: 7px;
+    font-size: 10px;
 }
