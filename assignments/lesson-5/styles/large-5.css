@@ -260,6 +260,7 @@ footer > img {
     .summaryArea {
         position: absolute;
         top: 205px;
+        left: 30px;
     }
     
     .summaryArea img {
@@ -355,7 +356,7 @@ footer > img {
         padding: .5rem;
         color: #ffffff;
         height: 190px;
-        width: 100%;
+        width: 600px;
     }
 
     .footertext{
