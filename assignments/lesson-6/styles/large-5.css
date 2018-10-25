@@ -92,7 +92,7 @@ header > img {
     position: relative;
     text-align: center;
     color: white;
-    width: 55%;
+    width: 75%;
     height: auto;
     display: block;
     margin-left: auto;
@@ -293,14 +293,14 @@ header > img {
 .summaryArea {
     position: absolute;
     top: 345px;
-    left: 600px;
+    left: 20%;
 }
 
 .summaryArea img {
     position: relative;
     text-align: center;
     color: white;
-    width: 125%;
+    width: 75%;
     height: auto;
     display: block;
     margin-left: auto;
@@ -320,7 +320,7 @@ float: center;
 .weatherSummary{
     position: absolute; 
     top: 8%;
-    left: 10%;  
+    left: 15%;  
     background-color: rgba(72, 73, 77, 0.425);
     border: 1pt solid rgb(0, 0, 0);
     padding-left: 5px;
@@ -335,8 +335,8 @@ float: center;
 
 .dayForecast {   
     position: absolute;
-    top: 825px;
-    left: 375px;
+    top: 85%;
+    left: 17%;
     width: 500px;
     background-color: rgb(71, 71, 73);
     vertical-align: center;
@@ -362,8 +362,8 @@ float: center;
 
 .articleArea {
     position: absolute;
-    top: 970px;
-    left: 300px;  
+    top: 105%;
+    left: 13%;  
     background-color: rgb(248, 4, 4);
     height: 315px;
     margin-left: 310px;
