@@ -3,7 +3,7 @@
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 18px; 
     width: 100%;
-    height: 1000px;
+    height: 1800px;
 }
 
 header {
@@ -175,7 +175,7 @@ float: center;
 
 footer {
     position: absolute;
-    top: 800px;
+    top: 1600px;
     background-color: rgb(54, 54, 54);
     text-align:center;
     padding: .5rem;
@@ -224,8 +224,8 @@ header {
 
 header > img {
     position: absolute;
-    left: 400px;
-    width: 150px;
+    left: 21%;
+    width: 12%;
     height: auto;
     vertical-align: middle;
 }
@@ -269,7 +269,7 @@ header > img {
 }
 
 .currentconditions img{
-    width: 100px;
+    width: 55%;
     height: auto;
 }
 
@@ -283,6 +283,19 @@ header > img {
     width: 100%;
 }
 
+.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
 
 .townName {
     position: absolute;
@@ -292,15 +305,15 @@ header > img {
 
 .summaryArea {
     position: absolute;
-    top: 345px;
-    left: 20%;
+    top: 40%;
+    left: 33%;
 }
 
 .summaryArea img {
     position: relative;
     text-align: center;
     color: white;
-    width: 75%;
+    width: 100%;
     height: auto;
     display: block;
     margin-left: auto;
