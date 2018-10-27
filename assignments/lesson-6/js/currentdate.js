@@ -14,3 +14,6 @@ var fullFooter = "&#9400; 2020 The Nerdy Weather site |Attribution | Alex F. God
 
 document.getElementById("dateFooter").innerHTML = fullFooter;
 
+function toggleHam() {    
+    document.getElementById("mobilenav").classList.toggle("hide");    
+}
