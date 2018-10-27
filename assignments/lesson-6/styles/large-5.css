@@ -227,7 +227,7 @@ body{
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 18px;
     width: 100%;
-    height: 2600px;
+    height: 2220px;
 }
 
 header {
@@ -382,7 +382,7 @@ float: center;
 
 .dayForecast {   
     position: absolute;
-    top: 200%;
+    top: 160%;
     left: 15%;
     width: 500px;
     background-color: rgb(71, 71, 73);
@@ -409,8 +409,8 @@ float: center;
 
 .articleArea {
     position: absolute;
-    top: 220%;
-    left: 13%;  
+    top: 180%; 
+    left:-15%; 
     background-color: rgb(248, 4, 4);
     height: 315px;
     margin-left: 310px;
@@ -432,7 +432,7 @@ float: center;
 
 footer {
     position: absolute;
-    top: 2400px;
+    top: 2030px;
     background-color: rgb(54, 54, 54);
     text-align:center;
     padding: .5rem;
