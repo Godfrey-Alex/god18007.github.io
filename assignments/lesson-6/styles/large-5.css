@@ -87,6 +87,19 @@ header > img {
     
 }
 
+.smallMenu a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
 .hide{
     visibility: hidden;
     background-color: #585555;
@@ -254,7 +267,7 @@ body{
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 18px;
     width: 100%;
-    height: 2420px;
+    height: 2440px;
 }
 
 header {
@@ -441,7 +454,7 @@ float: center;
 
 .articleArea {
     position: absolute;
-    top: 180%; 
+    top: 175%; 
     left:-13%; 
     background-color: rgb(248, 4, 4);
     height: 330px;
@@ -464,7 +477,7 @@ float: center;
 
 footer {
     position: absolute;
-    top: 2230px;
+    top: 2250px;
     background-color: rgb(54, 54, 54);
     text-align:center;
     padding: .5rem;
