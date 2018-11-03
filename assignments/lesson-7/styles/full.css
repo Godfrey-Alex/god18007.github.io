@@ -1,0 +1,30 @@
+@media only screen and (min-width: 1075px) {
+   
+    .grid-container{
+     display: grid;
+     grid-template-columns: auto auto auto;
+     grid-column-gap: 3%;
+     grid-row-gap: 10%;
+     background-color: rgb(139, 139, 0);
+    }
+ 
+    .grid-item {
+        width: 90%; 
+    }
+
+    .grid-item img{
+        width: 100%;
+    }
+
+    .grid-item img:hover {
+        box-shadow: 5px 5px 10px rgb(59, 56, 56);
+    }
+
+    .grid-item p:hover{
+        text-shadow: 5px;
+    }
+    .topmenuflex > h1{
+        font-size: 7px;
+    }
+ 
+ }
