@@ -19,7 +19,7 @@ tr:nth-child(even) {
      background-color:#e7f0ed;
   }
 
-  tr:nth-child(odd) {
+tr:nth-child(odd) {
     background-color:#e7ffed;
  }
 
@@ -34,7 +34,7 @@ tr:first-child{
     font-size: 20px;
 }
 
-tr:nth-child(9){
+tfoot {
     background-color: #78adce;
     color: black;
     font-size: 8px;
