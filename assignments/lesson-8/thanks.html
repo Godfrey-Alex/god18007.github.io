@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Preston Weather Page</title>
+    <link rel="styelsheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/large-5.css">
+    <!--<link href="https://fonts.googeapis.com/css?family=Merriweather+Sans%7cRoboto" rel="stylesheet">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Preston Weather Weather Page">
+</head>
+
+
+<body>
+    <header>
+        <div class="topmenuflex">
+            <div>
+                <img src="images/weather1.png" alt="Weather Site Page">
+            </div>
+            <div>
+                <h1>The Nerd Weather Page<h1>
+                        <h2>Weather Up!</h2>
+            </div>
+            <div>
+                <div class="currentconditions">
+                    <img src="images/weather2.jpg" alt="second Weather site icon">
+                    <p>Cloudy</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="flexmenu">
+            <a class="active" href="https://god18007.github.io/">Home</a>
+            <a href="https://god18007.github.io/assignments/lesson-7/preston.html">Preston</a>
+            <a href="#news">Sugar City</a>
+            <a href="#contact">Fish Haven</a>
+            <a href="https://god18007.github.io/assignments/lesson-8/stormcenter.html">Storm Center</a>
+            <a href="https://god18007.github.io/assignments/lesson-7/gallery-7.html">Gallery</a>
+        </div>
+
+        <nav class="smallMenu">
+                <button class="hamburgerMenu" onclick="toggleHam()">&#9776</button>
+                <ul id="mobilenav" class="pageList hide">
+                    <li><a href="https://god18007.github.io/" title="Home">Home</a></li>
+                    <li><a href="https://god18007.github.io/assignments/lesson-7/preston.html" title="About">Preston</a></li>
+                    <li><a href="#" title="Service">Service</a></li>
+                    <li><a href="#" title="History">History</a></li>
+                    <li><a href="https://god18007.github.io/assignments/lesson-8/stormcenter.html" title="Contact">Storm Center</a></li>
+                    <li><a href="https://god18007.github.io/assignments/lesson-7/gallery-7.html" title="Gallery">Gallery</a></li>
+                </ul>
+            </nav>
+    </header>
+    <div class="townName">
+        <h1>Thanks For Your Input!</h1>
+    </div>
+    
+    <footer>
+        <img src="images/france-map.jpg" alt="Map Pic">
+        <div class="footertext">
+            <p>
+                The Nerdy WeatherSite<br />
+                30 N 1st E<br />
+                <br />
+                &#9742; 999-999-9999<br />
+                &#9993; nerdyweather@nerds.com
+            </p>
+        </div>
+
+
+        <div class="footerBar">
+            <p id="dateFooter">&#9400; 2020 The Nerdy Weather site |Attribution | Alex F. Godfrey |</p>
+
+        </div>
+    </footer>
+    <script src="js/currentdate.js"></script>
+    <script src="js/windchill.js"></script>
+</body>
+
+</html>
