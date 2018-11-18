@@ -1,0 +1,20 @@
+{"coord":
+{"lon":-111.88,"lat":42.1},
+"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04n"}],
+"base":"stations",
+"main":{"temp":37.04,"pressure":1017,"humidity":59,"temp_min":37.04,"temp_max":37.04},
+"visibility":16093,
+"wind":{"speed":2.37,"deg":227.5},
+"clouds":{"all":90},
+"dt":1542437460,
+"sys":{
+    "type":1,
+    "id":2818,
+    "message":0.0033,
+    "country":"US",
+    "sunrise":1542464435,
+    "sunset":1542499448
+},
+"id":5604473,
+"name":"Preston",
+"cod":200}
