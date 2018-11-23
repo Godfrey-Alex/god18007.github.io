@@ -1,0 +1,23 @@
+@media only screen and (min-width:64em) {
+   
+    .grid-container{
+     display: grid;
+     grid-template-columns: auto auto;
+     grid-column-gap: 3%;
+     grid-row-gap: 3%;
+     background-color: rgb(139, 139, 139);
+    }
+ 
+    .grid-item {
+        width: 90%; 
+    }
+
+    .grid-item:hover {
+        box-shadow: 5px 5px 10px rgb(59, 56, 56);
+    }
+
+    .topmenuflex > h1{
+        font-size: 7px;
+    }
+ 
+ }
