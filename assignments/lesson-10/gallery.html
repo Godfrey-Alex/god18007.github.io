@@ -1,0 +1,109 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Weather Page Gallery</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+    <link rel="stylesheet" href="styles/mobile.css">
+    <link rel="stylesheet" href="styles/small-gallery.css">
+    <link rel="stylesheet" href="styles/mid.css">
+    <link rel="stylesheet" href="styles/full.css">
+    <link rel="stylesheet" href="styles/large-gallery.css">
+    <meta name="description" content="Weather Page Gallery">
+
+
+</head>
+
+
+<body>
+    <header>
+        <div class="topmenuflex">
+            <div>
+                <img src="images/weather1.png" alt="Weather Site Page">
+            </div>
+            <div>
+                <h1>The Nerd Weather Page!<h1>
+                <h2>Weather Up!!</h2>
+            </div>
+            <div>
+                <div class="currentconditions">
+                    <img src="images/weather2.jpg" alt="second Weather site icon">
+                    <p>Cloudy</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="flexmenu">
+            <a class="active" href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/index.html">Home</a>
+            <a href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/preston.html">Preston</a>
+            <a href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/sodasprings.html">Soda Springs</a>
+            <a href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/fishhaven.html">Fish Haven</a>
+            <a href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/stormcenter.html">Storm Center</a>
+            <a href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/gallery.html">Gallery</a>
+        </div>
+
+        <nav class="smallMenu">
+            <button class="hamburgerMenu" onclick="toggleHam()">&#9776</button>
+            <ul id="mobilenav" class="pageList hide">
+                <li><a href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/index.html" title="Home">Home</a></li>
+                <li><a href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/preston.html" title="About">Preston</a></li>
+                <li><a href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/sodasprings.html" title="Service">Soda Springs</a></li>
+                <li><a href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/fishhaven.html" title="History">Fish Haven</a></li>
+                <li><a href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/stormcenter.html" title="Contact">Storm Center</a></li>
+                <li><a href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/gallery.html" title="Gallery">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="images/gallery1.jpg" alt="Gallery1">
+            <p>Contrasting Weather</p>
+        </div>
+        <div class="grid-item">
+            <img src="images/gallery2.jpg" alt="Gallery2">
+            <p>Nice Rainbow</p>
+        </div>
+        <div class="grid-item">
+            <img src="images/gallery3.jpg" alt="Gallery3">
+            <p>Weather at Sea</p>
+        </div>
+        <div class="grid-item">
+            <img src="images/gallery4.jpg" alt="Gallery4">
+            <p>Nice Beach Weather</p>
+        </div>
+        <div class="grid-item">
+            <img src="images/gallery5.jpg" alt="Gallery5">
+            <p>Tropical Weather</p>
+        </div>
+        <div class="grid-item">
+            <img src="images/gallery6.jpg" alt="Gallery6">
+            <p>Perfect Weather in Paris</p>
+        </div>
+    </div>
+
+    <footer>
+        <img src="images/france-map.jpg" alt="Map Pic">
+        <div class="footertext">
+            <p>
+                The Nerdy WeatherSite<br />
+                30 N 1st E<br />
+                <br />
+                &#9742; 999-999-9999<br />
+                &#9993; nerdyweather@nerds.com
+            </p>
+        </div>
+
+
+        <div class="footerBar">
+            <p id="dateFooter">&#9400; 2020 The Nerdy Weather site |Attribution | Alex F. Godfrey |</p>
+
+        </div>
+    </footer>
+    <script src="js/currentdate.js"></script>
+    <script src="js/windchill.js"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Storm Center Weather Report</title>
+    <link rel="styelsheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/large-stormcenter.css">
+    <link rel="styelsheet" href="styles/form.css">
+    <!--<link href="https://fonts.googeapis.com/css?family=Merriweather+Sans%7cRoboto" rel="stylesheet">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Storm Center Weather Report">
+
+    <script>
+        function adjustRating(rating) {
+            document.getElementById("ratingvalue").innerHTML = rating;
+        }</script>
+</head>
+
+
+<body>
+    <header>
+        <div class="topmenuflex">
+            <div>
+                <img src="images/weather1.png" alt="Weather Site Page">
+            </div>
+            <div>
+                <h1>The Nerd Weather Page<h1>
+                        <h2>Weather Up!</h2>
+            </div>
+            <div>
+                <div class="currentconditions">
+                    <img src="images/weather2.jpg" alt="second Weather site icon">
+                    <p>Cloudy</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="flexmenu">
+            <a class="active" href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/index.html">Home</a>
+            <a href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/preston.html">Preston</a>
+            <a href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/sodasprings.html">Soda Springs</a>
+            <a href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/fishhaven.html">Fish Haven</a>
+            <a href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/stormcenter.html">Storm Center</a>
+            <a href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/gallery.html">Gallery</a>
+        </div>
+
+        <nav class="smallMenu">
+            <button class="hamburgerMenu" onclick="toggleHam()">&#9776</button>
+            <ul id="mobilenav" class="pageList hide">
+                <li><a href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/index.html" title="Home">Home</a></li>
+                <li><a href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/preston.html" title="About">Preston</a></li>
+                <li><a href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/sodasprings.html" title="Service">Soda Springs</a></li>
+                <li><a href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/fishhaven.html" title="History">Fish Haven</a></li>
+                <li><a href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/stormcenter.html" title="Contact">Storm Center</a></li>
+                <li><a href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/gallery.html" title="Gallery">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Storm Center</h1>
+    <form class="stormcenter">
+        Full Name:<input type="text" name="fullname" pattern="[A-Za-z0-9].{6,}" required><br>
+        Email: <input type="email" name="email" value="test@email.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br>
+        Phone Number: <input type="tel" name="phone" required><br>
+        Zip Code: <input type="number" name="zipcode" required><br>
+        Storm Date:<input type="date" name="stormdate"><br>
+        Storm Type: <input list="stormtype" name="stormtype">
+        <datalist id="stormtype">
+            <option value="Flash Flood">
+            <option value="Hail">
+            <option value="Hurricane">
+            <option value="Thunderstorm">
+            <option value="Tornado">
+        </datalist><br />
+        Storm Severity (1-10):<input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)"
+            onchange="adjustRating(this.value)"><span id="ratingvalue">5</span><br>
+        Storm Region:<select name="stormregion" form="stormcenter">
+            <option value="">Select Region...</option>
+            <option value="preston">Preston</option>
+            <option value="Fish Haven">Fish Haven</option>
+            <option value="Sugar City">Sugar City</option>
+            <option value="Idaho Falls">Idaho Falls</option>
+            <option value="Salt Lake City">Salt Lake City</option>
+            <option value="St. George">St. George</option>
+        </select><br>
+        User in Danger:
+        <br>
+        <input type="radio" name="dangerlevel" value="yes"> Yes<br>
+        <input type="radio" name="dangerlevel" value="no"> No<br>
+        <input type="radio" name="dangerlevel" value="maybe"> Maybe<br>
+        Additional Information:<br><textarea rows="4" cols="50" name="moreinformation" form="stormcenter"></textarea><br>
+        <input type="submit" value="Submit" formaction="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/thanks.html">
+    </form>
+    <footer>
+        <img src="images/france-map.jpg" alt="Map Pic">
+        <div class="footertext">
+            <p>
+                The Nerdy WeatherSite<br />
+                30 N 1st E<br />
+                <br />
+                &#9742; 999-999-9999<br />
+                &#9993; nerdyweather@nerds.com
+            </p>
+        </div>
+
+
+        <div class="footerBar">
+            <p id="dateFooter">&#9400; 2020 The Nerdy Weather site |Attribution | Alex F. Godfrey |</p>
+
+        </div>
+    </footer>
+    <script src="js/currentdate.js"></script>
+    <script src="js/windchill.js"></script>
+</body>
+
+</html>

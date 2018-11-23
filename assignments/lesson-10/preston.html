@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Preston Weather Page</title>
+    <link rel="styelsheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/large-5.css">
+    <!--<link href="https://fonts.googeapis.com/css?family=Merriweather+Sans%7cRoboto" rel="stylesheet">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Preston Weather Page">
+</head>
+
+
+<body>
+    <header>
+        <div class="topmenuflex">
+            <div>
+                <img src="images/weather1.png" alt="Weather Site Page">
+            </div>
+            <div>
+                <h1>The Nerd Weather Page<h1>
+                        <h2><br />Weather Up!</h2>
+            </div>
+            <div>
+                <div class="currentconditions">
+                    <img id="currentconditionsURL" src="images/weather2.jpg" alt="second Weather site icon">
+                    <p id="currentconditionsIconword"></p>
+                </div>
+
+            </div>
+        </div>
+        <div class="flexmenu">
+            <a class="active" href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/index.html">Home</a>
+            <a href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/preston.html">Preston</a>
+            <a href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/sodasprings.html">Soda Springs</a>
+            <a href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/fishhaven.html">Fish Haven</a>
+            <a href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/stormcenter.html">Storm Center</a>
+            <a href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/gallery.html">Gallery</a>
+        </div>
+
+        <nav class="smallMenu">
+            <button class="hamburgerMenu" onclick="toggleHam()">&#9776</button>
+            <ul id="mobilenav" class="pageList hide">
+                <li><a href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/index.html" title="Home">Home</a></li>
+                <li><a href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/preston.html" title="About">Preston</a></li>
+                <li><a href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/sodasprings.html" title="Service">Soda Springs</a></li>
+                <li><a href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/fishhaven.html" title="History">Fish Haven</a></li>
+                <li><a href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/stormcenter.html" title="Contact">Storm Center</a></li>
+                <li><a href="file:///C:/Users/alexander.godfrey/Desktop/code/lesson-10/gallery.html" title="Gallery">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="townName">
+        <h1>The Town of Preston</h1>
+    </div>
+    <div class="summaryArea">
+        <img srcset="images/prestontown.jpeg" alt="Preston town Picture">
+        <div class="weatherSummary">
+            <h3>Weather Summary</h3>
+            <p id="currentSky"></p>
+            <p id="currentTemp">Temperature: 76 &#8457;</p>
+            <p id="currentHumidity">Humidity: 70%</p>
+            <p id="currentPrecipitation">Precipitation: 5 inches</p>
+            <p id="currentWindspeed">Wind Speed: 10 mph</p>
+            <p id="windChill">Wind Chill: </p>
+        </div>
+    </div>
+    <div class="optimized">
+        <picture>
+            <source media="(max-width: 600px)" srcset="images/franklin-original-min-small.jpeg">
+            <img src="images/franklin-original-min.jpeg" alt="big Picture">
+            <p class="optimizedword">Large Picture</p>
+        </picture>
+    </div>
+    <div class="dayForecast">
+        <div class="forecastText">
+            <table class="table">
+                <caption>High Temperature Forecast</caption>
+                <tr>
+                    <th>Day</th>
+                    <th id="today">Wed</th>
+                    <th id="todayplus1">Thu</th>
+                    <th id="todayplus2">Fri</th>
+                    <th id="todayplus3">Sat</th>
+                    <th id="todayplus4">Sun</th>
+                </tr>
+                <tr>
+                    <td id="todayTemp">Forecast</td>
+                    <td id="todayplus1Temp">36&#8457</td>
+                    <td id="todayplus2Temp">38&#8457</td>
+                    <td id="todayplus3Temp">37&#8457</td>
+                    <td id="todayplus4Temp">39&#8457</td>
+                    <td id="todayplus5Temp">35&#8457</td>
+            </table>
+        </div>
+    </div>
+    <div class="articleArea">
+        <img src="images/camping.jpeg" alt="Camping Pic">
+        <div class="articlePic">
+            <h2>Nature for Natures sake</h2>
+            <h5>by Alex Starwits</h5>
+            <p>The weather that has existed during this season has been great. Many people have spend a lot of time in
+                one of the greatest
+                state for national parks. The summer was bright and healthy. Plenty of rain fall acompanies the season
+                to allow the vegitation
+                to grow strong. This in turn has lead to large wild life populations around the area. Keep an eye out
+                for all the wildlife
+                that is out there to share nature with you. You won't regret it. Also take your time to clean
+                up after youselves so that others that come after are able to enjoy nature just as you did.</p>
+        </div>
+    </div>   
+    </div>
+    <footer>
+        <img src="images/france-map.jpg" alt="Map Pic">
+        <div class="footertext">
+            <p>
+                The Nerdy WeatherSite<br />
+                30 N 1st E<br />
+                <br />
+                &#9742; 999-999-9999<br />
+                &#9993; nerdyweather@nerds.com
+            </p>
+        </div>
+
+
+        <div class="footerBar">
+            <p id="dateFooter">&#9400; 2020 The Nerdy Weather site |Attribution | Alex F. Godfrey |</p>
+
+        </div>
+    </footer>
+    <script src="js/currentdate.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/summaryapi.js"></script>
+
+
+</body>
+
+</html>
