@@ -1,5 +1,7 @@
 
 
+
+
 @media only screen and (min-width: 1025px) {
 
 
@@ -77,6 +79,10 @@ header > img {
 
 .grid-menu {
     visibility: hidden;
+}
+
+.wayfinderurl {
+    background-color: black;
 }
 
 .flexmenu{
