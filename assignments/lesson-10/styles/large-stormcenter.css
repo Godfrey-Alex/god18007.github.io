@@ -26,6 +26,10 @@ header > img {
     display: flex;
 }
 
+.wayfinderurl {
+    background-color: black;
+}
+
 .topmenuflex img{
     width: 37%;
     height: auto;
@@ -359,6 +363,10 @@ header > img {
     justify-content: center;
     visibility: show;
 
+}
+
+.wayfinderurl {
+    background-color: black;
 }
 
 .currentconditions {
