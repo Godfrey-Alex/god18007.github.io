@@ -119,6 +119,10 @@
         background-color: #ddd;
         color: black;
     }
+
+    .wayfinderurl {
+        background-color: black;
+    }
     
     .hide{
         visibility: hidden;
