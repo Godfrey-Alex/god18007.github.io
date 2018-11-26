@@ -105,6 +105,10 @@
         height: 2.5%;
         
     }
+
+    .wayfinderurl {
+        background-color: black;
+    }
     
     .smallMenu a {
         color: #f2f2f2;
