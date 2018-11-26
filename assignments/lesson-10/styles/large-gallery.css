@@ -49,6 +49,10 @@ header > img {
     width: 200px;
 }
 
+.wayfinderurl {
+    background-color: black;
+}
+
 .topmenuflex {
     display: flex;
     justify-content: center;
