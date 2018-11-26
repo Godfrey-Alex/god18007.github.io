@@ -17,6 +17,10 @@ header {
     height: 145px;
 }
 
+.wayfinderurl {
+    background-color: black;
+}
+
 header > img {
     width: 15%;
     height: auto;
@@ -81,6 +85,10 @@ header > img {
 .currentconditions img{
     width: 100px;
     height: auto;
+}
+
+.wayfinderurl {
+    background-color: black;
 }
 
 .topnav {
@@ -335,6 +343,10 @@ header > img {
     width: 200px;
 }
 
+.wayfinderurl {
+    background-color: black;
+}
+
 .topmenuflex {
     display: flex;
     justify-content: center;
@@ -368,6 +380,10 @@ header > img {
     justify-content: center;
     visibility: show;
 
+}
+
+.wayfinderurl {
+    background-color: black;
 }
 
 .currentconditions {
