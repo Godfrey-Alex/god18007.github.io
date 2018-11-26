@@ -175,6 +175,10 @@ header > img {
     color: black;
 }
 
+.wayfinderurl {
+    background-color: black;
+}
+
 .hide{
     visibility: hidden;
     background-color: #585555;
