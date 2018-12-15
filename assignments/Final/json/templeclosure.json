@@ -1,0 +1,58 @@
+[
+  {
+    "index": "first",
+    "name": "Paris Temple",
+    "closures": [
+      "December 25 - December 26",
+      "January 1 - January 2",
+      "January 8 - February 11",
+      "April 6",
+      "June 3 - June 17",
+      "October 5",
+      "December 24 - December 25",
+      "December 31 - January 1 2020"
+    ]
+  },
+  {
+    "index": "second",
+    "name": "Swiss Temple",
+    "closures": [
+      "December 25 - December 26",
+      "January 1 - January 2",
+      "January 7 - February 19",
+      "April 6",
+      "June 3 - June 17",
+      "October 5",
+      "December 24 - December 25",
+      "December 31 - January 1 2020"
+    ]
+  },
+  {
+    "index": "second",
+    "name": "Netherlands Temple",
+    "closures": [
+      "December 25 - December 26",
+      "January 1 - January 2",
+      "January 8 - February 11",
+      "April 6",
+      "June 3 - June 17",
+      "October 5",
+      "December 24 - December 25",
+      "December 31 - January 1 2020"
+    ]
+  },
+  {
+    "index": "second",
+    "name": "Frankfurt Temple",
+    "closures": [
+      "December 25 - December 26",
+      "January 1 - January 2",
+      "January 8 - February 11",
+      "April 6",
+      "June 3 - June 17",
+      "October 5",
+      "December 24 - December 25",
+      "December 31 - January 1 2020"
+    ]
+  }
+]
