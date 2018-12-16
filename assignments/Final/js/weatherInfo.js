@@ -9,11 +9,7 @@ parisRequest.onload = function () {
         document.getElementById("parisTemp").innerHTML = "Current Temp: " + weather.main.temp +"&#8457;"; 
     }
 
-
-
-
-
-var swissRequestURL = 'http://api.openweathermap.org/data/2.5/weather?q=Bern,ch&APPID=ad69af2b4f916ee4336e2bd53cd5ffa5&units=imperial';
+var swissRequestURL = 'http://api.openweathermap.org/data/2.5/weather?q=Paris,fr&APPID=64ab9833a5e5e15a54383ee60489eb5e&units=imperial';
 var swissRequest = new XMLHttpRequest();            
 swissRequest.open('GET', swissRequestURL);
 swissRequest.responseType = 'json';
@@ -22,9 +18,7 @@ swissRequest.onload = function () {
             var weather = swissRequest.response; 
             document.getElementById("swissWeather").innerHTML = "Current Weather: " + weather.weather[0].description; 
             document.getElementById("swissTemp").innerHTML = "Current Temp: " + weather.main.temp +"&#8457;"; 
-        } 
-
-        
+        }         
 
 var nethRequestURL = 'http://api.openweathermap.org/data/2.5/weather?q=Amsterdam,nl&APPID=eab640531f70eb2a6688f8905600fef4&units=imperial';
 var nethRequest = new XMLHttpRequest();                    
@@ -36,7 +30,6 @@ nethRequest.onload = function () {
         document.getElementById("nethWeather").innerHTML = "Current Weather: " + weather.weather[0].description; 
         document.getElementById("nethTemp").innerHTML = "Current Temp: " + weather.main.temp +"&#8457;"; 
     }
-
 
 var GermanyRequestURL = 'http://api.openweathermap.org/data/2.5/weather?q=Frankfurt,de&APPID=494159b2950d172bd71043e4dab7679c&units=imperial';
 var GermanyRequest = new XMLHttpRequest();                    
