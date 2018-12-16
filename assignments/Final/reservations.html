@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>The Temple Inn & Suites. Let us help you plan a trip to the temple
+        and make things as easy as possible
+        for you.</title>
+    <link rel="stylesheet" href="css/reservationsMobile.css">
+    <link rel="stylesheet" href="css/reservationsMid.css">
+    <link rel="stylesheet" href="css/reservationsDesktop.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--<link href="https://fonts.googeapis.com/css?family=Merriwea
+        ther+Sans%7cRoboto" rel="stylesheet">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Temple Inn & Suites">
+</head>
+
+<body>
+
+    <div class="bodyContainer">
+
+        <div class="headerContainer">
+            <div class="innImage">
+                <img src="images/hotelDoodle.jpg" alt="Inn image">
+            </div>
+            <h1 class="header1">The Temple Inn & Suites</h1>
+            <div class="normalMenu">
+                <a href="file:///D:/Docs/Documents/Alex/BYUI/CIT%20230%20Web%20Design/Assignments/Final%20Project/index.html">Home</a>
+                <a href="file:///D:/Docs/Documents/Alex/BYUI/CIT%20230%20Web%20Design/Assignments/Final%20Project/temple.html">Temples</a>
+                <a class="active" href="file:///D:/Docs/Documents/Alex/BYUI/CIT%20230%20Web%20Design/Assignments/Final%20Project/reservations.html">Reservations</a>
+                <a href="file:///D:/Docs/Documents/Alex/BYUI/CIT%20230%20Web%20Design/Assignments/Final%20Project/services.html">Services</a>
+                <a href="file:///D:/Docs/Documents/Alex/BYUI/CIT%20230%20Web%20Design/Assignments/Final%20Project/contact.html">Contact</a>
+            </div>
+            <div class="templeIcon">
+                <img src="images/templeIcon.jpg" alt="Temple Icon">
+            </div>
+        </div>
+
+
+        <div class="formArea">
+            <div class="form">
+                <h1>Reservations Form</h1>
+                <form class="Reservation">
+                    Location: <input list="roomLocation" name="location">
+                    <datalist id="roomLocation">
+                        <option value="Paris France">
+                        <option value="Bern Switzerland">
+                        <option value="Netherlands">
+                        <option value="Frankfurt Germany">
+                    </datalist><br />
+                    Arrival Date:<input type="date" name="arrivalDate"><br>
+                    Departure Date:<input type="date" name="departureDate"><br>
+
+                    Room Type: <input list="roomType" name="roomType">
+                    <datalist id="roomType">
+                        <option value="Single">
+                        <option value="Couple">
+                        <option value="Family">
+                    </datalist><br/>
+
+                    Number of Rooms: <input list="numOfRooms" name="numOfRooms">
+                    <datalist id="numOfRooms">
+                        <option value="1">
+                        <option value="2">
+                        <option value="3">
+                    </datalist><br/>
+
+                    Full Name:<input type="text" name="fullname" pattern="[A-Za-z0-9].{6,}" required><br>
+                    Email: <input type="email" name="email" value="test@email.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br>
+                    Phone Number: <input type="tel" name="phone" required><br>
+                    Home State:<input type="text" name="fullname" required><br>
+                    Home Country:<input type="text" name="fullname" required><br>
+                    Special Accomodations/Comments:<br><textarea rows="4" cols="50" name="moreinformation" form="stormcenter"></textarea><br>
+                    <input type="submit" value="Submit" formaction="file:///D:/Docs/Documents/Alex/BYUI/CIT%20230%20Web%20Design/Assignments/Final%20Project/thanks.html">
+                </form>
+            </div>
+        </div>
+
+
+        <div class="footerContainer">
+            <p id="footerInfo">&copy; 2020 The Temple &
+                Suites Inn | Alex F. Godfrey | Current Date</p>
+        </div>
+    </div>
+    <script src="js/currentDate.js"></script>
+</body>
+
+
+</html>
