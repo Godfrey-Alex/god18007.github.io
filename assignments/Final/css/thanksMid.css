@@ -1,0 +1,103 @@
+
+@media only screen and (min-width: 601px) and (max-width: 1023px){
+
+    .headerContainer {grid-area: header;}
+    .thanksArea {grid-area: right;}
+    .footerContainer {grid-area: footer;}
+    
+    
+    .bodyContainer {
+        display: grid;
+        grid-template-areas:
+          'header header header header header header'
+          'right right right right right right'
+          'right right right right right right'
+          'right right right right right right'
+          'right right right right right right'
+          'footer footer footer footer footer footer';
+        grid-gap: 10px;
+        background-color: rgb(14, 8, 88);
+        padding: 10px;
+      }
+    
+      .innImage {grid-area: leftHeader;}
+      .header1 {grid-area: text;}
+      .normalMenu {grid-area:menu;}
+      .templeIcon {grid-area: rightHeader;}
+    
+      .headerContainer {
+          display: grid;
+          grid-template-areas:
+            'leftHeader text text rightHeader'
+            'leftHeader menu menu rightHeader';
+        grid-gap: 5px;
+        padding: 5px;        
+      }
+    
+      .oneThanks {grid-area: one;} 
+      .twoThanks {grid-area: two;}
+      .threeThanks {grid-area: three;}
+
+    
+      .thanksArea {
+        display: grid;
+        grid-template-areas:
+          'one'
+          'two'
+          'three';
+      grid-gap: 5px;
+      background-color: rgb(14, 8, 88);
+      padding: 5px;        
+    }
+    
+      .bodyContainer > div {
+        background-color: rgb(165, 167, 185);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+      }
+    
+      .innImage img{
+          width: 95%;
+          height: auto;
+      }
+    
+      .templeIcon img{
+        width: 95%;
+        height: auto; 
+      }
+    
+      .templeSummary img {
+          width: 50%;
+          height: auto;
+      }
+    
+      .normalMenu a {
+        color: #1100fa;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;     
+      }
+    
+      .normalMenu a:hover {
+        color: #FFD700;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;    
+      }
+    
+      .templeInvitation a {
+        color: #1100fa;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;     
+      }
+    
+      .templeInvitation a:hover {
+        color: #FFD700;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;    
+      }
+      
+    }

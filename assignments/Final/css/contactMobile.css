@@ -1,0 +1,154 @@
+
+@media only screen and (max-width:600px){
+
+    .headerContainer {grid-area: header;}
+    .contactArea {grid-area: right;}
+    .footerContainer {grid-area: footer;}
+    
+    
+    .bodyContainer {
+        display: grid;
+        grid-template-areas:
+          'header header header header header header'
+          'right right right right right right'
+          'right right right right right right'
+          'right right right right right right'
+          'right right right right right right'
+          'footer footer footer footer footer footer';
+        grid-gap: 10px;
+        background-color: rgb(14, 8, 88);
+        padding: 10px;
+      }
+    
+      .innImage {grid-area: leftHeader;}
+      .header1 {grid-area: text;}
+      .normalMenu {grid-area:menu;}
+      .templeIcon {grid-area: rightHeader;}
+    
+      .headerContainer {
+          display: grid;
+          grid-template-areas:
+            'leftHeader text text rightHeader'
+            'leftHeader menu menu rightHeader';
+        grid-gap: 5px;
+        padding: 5px;        
+      }
+    
+      .contactDetails {grid-area: one;} 
+      .embeddedMap {grid-area: two;} 
+      .contactForm {grid-area: three;}
+      
+      .contactArea {
+        display: grid;
+        grid-template-areas:
+          'one'
+          'two'
+          'three';
+      grid-gap: 5px;
+      background-color: rgb(14, 8, 88);
+      padding: 5px;        
+    }
+
+    .smallRoom {grid-area: small;}
+    .midRoom {grid-area: mid;}
+    .largeRoom {grid-area: large;}
+    .form {grid-area: form;}
+
+    .missionaryArea {
+      display: grid;
+      grid-template-areas:
+      'small mid large'
+      'form form form';
+      grid-gap: 5px;
+      padding: 5px;
+    }
+    
+
+    
+      .bodyContainer > div {
+        background-color: rgb(165, 167, 185);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+      }
+    
+      .innImage img{
+          width: 95%;
+          height: auto;
+      }
+    
+      .templeIcon img{
+        width: 95%;
+        height: auto; 
+      }
+    
+      .templeSummary img {
+          width: 50%;
+          height: auto;
+      }
+    
+      .normalMenu a {
+        color: #1100fa;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;     
+      }
+    
+      .normalMenu a:hover {
+        color: #FFD700;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;    
+      }
+    
+      .templeInvitation a {
+        color: #1100fa;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;     
+      }
+    
+      .templeInvitation a:hover {
+        color: #FFD700;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;    
+      }
+
+      .services {
+        border-style: solid;
+        border-color: #FFD700;
+        border-width: 5px;
+      }
+      .reception {
+        border-style: solid;
+        border-color: #FFD700;
+        border-width: 5px;
+      }
+      .missionaryArea {
+        border-style: solid;
+        border-color: #FFD700;
+        border-width: 5px;
+      }
+
+      .missionaryArea img{
+        width: 85%;
+        height: auto;
+      }
+    
+      .active {
+        background-color: azure;
+      }
+
+      iframe{
+        width: 80%;
+      }
+
+      input {
+        width: 50%;
+      }
+
+      textarea {
+        width: 80%;
+      }
+    }
