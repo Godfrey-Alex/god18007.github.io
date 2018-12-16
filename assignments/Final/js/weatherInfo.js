@@ -9,7 +9,7 @@ parisRequest.onload = function () {
         document.getElementById("parisTemp").innerHTML = "Current Temp: " + weather.main.temp +"&#8457;"; 
     }
 
-var swissRequestURL = 'http://api.openweathermap.org/data/2.5/weather?q=Paris,fr&APPID=64ab9833a5e5e15a54383ee60489eb5e&units=imperial';
+var swissRequestURL = 'http://api.openweathermap.org/data/2.5/weather?q=Zurich,ch&APPID=ad69af2b4f916ee4336e2bd53cd5ffa5&units=imperial';
 var swissRequest = new XMLHttpRequest();            
 swissRequest.open('GET', swissRequestURL);
 swissRequest.responseType = 'json';
